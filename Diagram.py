@@ -8,7 +8,7 @@ Diagram = nx.DiGraph()
 Diagram.add_node("Padaria", label="Padaria\n\n- nome: Padaria 7 Sonhos\n- endereço: Rua da Sorte, 7\n+ contratar_Funcionario(): void")
 Diagram.add_node("Cliente", label="Cliente\n\n- nome: Gabriel de Almeida\n- endereço: Rua Irimirim, 04\n- telefone: (11) 95732-4839\n+ realizar_Pedido(): void")
 Diagram.add_node("Funcionário", label="Funcionário\n\n- nome: Edgar dos Santos\n- cargo: Balconista\n- salário: 1.240,43")
-Diagram.add_node("Produto", label="Produto\n\n- nome: Baguete 500g\n- preço: 13,30\n+ quantidade: int")
+Diagram.add_node("Produto", label="Produto\n\n- nome: Baguete 500g\n- preço: 13,30\n+ quantidade: 17")
 Diagram.add_node("Gerente", label="Gerente\n\n- area_Responsavel: Vendas\n+ gerenciar(): void")
 
 # Layout of diagram
