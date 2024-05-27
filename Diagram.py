@@ -14,7 +14,7 @@ Diagram.add_node("Gerente", label="Gerente\n- area_Responsavel: Vendas\n+ gerenc
 #
 pos = {
     "Padaria": (0, 0),
-    "Cliente": (4, 0),
+    "Cliente": (1, 0),
     "Funcionário": (2, 0),
     "Produto": (3, 0),
     "Gerente": (2, -1)
@@ -28,7 +28,7 @@ Diagram.add_edge("Padaria", "Gerente")
 Diagram.add_edge("Gerente", "Funcionário")
 
 #
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(15, 8))
 
 #
 nx.draw_networkx_nodes(Diagram, pos, node_size=5000, node_color='black')
