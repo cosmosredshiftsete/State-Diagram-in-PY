@@ -14,7 +14,7 @@ Diagram.add_node("Gerente", label="Gerente\n- area_Responsavel: Vendas\n+ gerenc
 #
 pos = {
     "Padaria": (0, 0),
-    "Cliente": (1, 1),
+    "Cliente": (4, 0),
     "Funcionário": (2, 0),
     "Produto": (3, 0),
     "Gerente": (2, -1)
@@ -25,6 +25,7 @@ Diagram.add_edge("Padaria", "Cliente")
 Diagram.add_edge("Padaria", "Funcionário")
 Diagram.add_edge("Padaria", "Produto")
 Diagram.add_edge("Padaria", "Gerente")
+Diagram.add_edge("Gerente", "Funcionário")
 
 #
 plt.figure(figsize=(10, 8))
