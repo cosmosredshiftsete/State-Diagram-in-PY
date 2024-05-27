@@ -2,4 +2,4 @@
 <div>
 
 ### inspiration:
-![Diagram 1](/img/Diagram 1.png)
+c:\Users\Alysson\Documents\GitHub\State-Diagram-in-PY\img\Diagram 1.png
