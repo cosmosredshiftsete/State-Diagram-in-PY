@@ -20,7 +20,7 @@ pos = {
     "Gerente": (2, -1)
 }
 
-# Relationships
+# Relations
 Diagram.add_edge("Padaria", "Cliente")
 Diagram.add_edge("Padaria", "Funcionário")
 Diagram.add_edge("Padaria", "Produto")
